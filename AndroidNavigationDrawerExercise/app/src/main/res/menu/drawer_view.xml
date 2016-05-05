@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_fragment"
+            android:icon="@drawable/icon_home_2x"
+            android:title="HOME"/>
+        <item
+            android:id="@+id/nav_second_fragment"
+            android:icon="@drawable/icon_ttdh_2x"
+            android:title="ABOUT"/>
+        <item
+            android:id="@+id/nav_third_fragment"
+            android:icon="@drawable/icon_favorite_2x"
+            android:title="MY FAVORITES"/>
+        <item
+            android:id="@+id/nav_fourth_fragment"
+            android:icon="@drawable/icon_news_2x"
+            android:title="LASTEST NEWS"/>
+        <item
+            android:id="@+id/nav_fifth_fragment"
+            android:icon="@drawable/icon_settings_2x"
+            android:title="SETTINGS"/>
+        <item
+            android:id="@+id/nav_sixth_fragment"
+            android:icon="@drawable/icon_logout_2x"
+            android:title="LOGOUT"/>
+
+    </group>
+
+    <item android:title="Sub items">
+        <menu>
+            <item
+                android:icon="@drawable/ic_one"
+                android:title="Sub item 1"/>
+            <item
+                android:icon="@drawable/ic_two"
+                android:title="Sub item 2"/>
+        </menu>
+    </item>
+</menu>

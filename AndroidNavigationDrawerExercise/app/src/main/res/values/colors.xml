@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_dark">#455A64</color>
+    <color name="primary">#607D8B</color>
+    <color name="accent">#FF9800</color>
+    <color name="ActionBar.Color.RedDark">#D50000</color>
+    <color name="ActionBar.Color.RedLight">#F44336</color>
+</resources>
